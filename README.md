@@ -7,7 +7,7 @@ opencv-3.4.11、CMake 3.19.7、qt5.13.1 mingw32位、vs2017
 
 下载exe，安装好后，默认已有vs2017、vs2019的x64库；打开cmake，选择的sources目录和编译后的目录入下：
 
-![image-20210326164533332](https://github.com/Hongws/OpencvTest/tree/main/img/image-20210326164533332.png)
+![image-20210326164533332](http://github.com/Hongws/OpencvTest/tree/main/img/image-20210326164533332.png)
 
 点击Configure按钮后，选择vs2017+win32编译，没用到的库（类似python、java的）错误提示可以忽略，完成后再点击Generate，然后到编译目录下用vs2017 win32打开编译（如果需要生成单一lib，注意勾选BUILD_opencv_world）
 
