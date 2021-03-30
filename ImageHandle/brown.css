@@ -1,0 +1,28 @@
+QPalette{background:#D7DBE4;}
+
+QWidget#frmMain,QWidget[Form="true"]{
+border:1px solid #738393;
+border-radius:0px;
+}
+
+.QPushButton{
+border-style:none;
+border:1px solid #C2CCD8;
+color:#E7ECF0;
+padding:5px;
+min-height:20px;
+border-radius:5px;
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #667481,stop:1 #566373);
+}
+
+.QPushButton:hover{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #778899,stop:1 #708090);
+}
+
+.QPushButton:pressed{
+background:qlineargradient(spread:pad,x1:0,y1:0,x2:0,y2:1,stop:0 #667481,stop:1 #566373);
+}
+
+QLabel{
+border:1px solid #738393;
+}
